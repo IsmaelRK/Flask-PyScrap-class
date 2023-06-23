@@ -1,0 +1,153 @@
+html{
+    /* background-image: linear-gradient(to left, #aa4b6b, #6b6b83, #3b8d99); */
+    background-color: #f2dfb1;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.divtit{
+    display: flex;
+    justify-content: center;
+}
+
+#title_h1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+
+}
+
+#formulario{
+
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+
+#title_h1{
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+
+#subtit{
+    grid-row: 1/2;
+    grid-column: 2/3;
+    text-align: center;
+
+    display: flex;
+    margin-top: 1rem;
+    height: 2rem;
+    width: 15rem;
+    justify-content: center;
+    align-content: center;
+
+}
+
+#n1{
+    grid-row: 2/3;
+    grid-column: 2/3;
+    text-align: center;
+    border-radius: 4rem;
+    border: 0;
+}
+
+#n2{
+    grid-row: 3/4;
+    grid-column: 2/3;
+    text-align: center;
+    border-radius: 4rem;
+    border: 0;
+}
+
+#n3{
+    grid-row: 4/5;
+    grid-column: 2/3;
+    text-align: center;
+    border-radius: 4rem;
+    border: 0;
+}
+
+#btn{
+    grid-row: 5/5;
+    grid-column: 2/3;
+    border-radius: 4rem;
+    border: 0;
+    transition: 0.9s;
+}
+
+#btn:hover{
+    background-color: #b7c9a9;
+}
+
+.allform{
+    display: flex;
+    margin-top: 1rem;
+    height: 2rem;
+    width: 15rem;
+    justify-content: center;
+    align-content: center;
+    transition: 0.9s;
+    
+}
+
+.allform:hover{
+    transform: scale(1.2);
+    box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.5);
+}
+
+.formdiv{
+    display: flex;
+    height: 25rem;
+    width: 25rem;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    /* background-image: linear-gradient(to bottom, #009FFF, #ec2F4B); */
+    background-color: #ff7c70;
+    border-radius: 2rem;
+}
+
+/* css html resultado*/
+
+.resdiv{
+    display: flex;
+    height: 25rem;
+    width: 25rem;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    /* background-image: linear-gradient(to bottom, #009FFF, #ec2F4B); */
+    background-color: #ff7c70;
+    border-radius: 2rem;
+
+
+
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+#h1t{
+    grid-row: 1;
+    grid-column: 2;
+}
+
+#h3t{
+    grid-row: 2;
+    grid-column: 1;
+}
+#h3t2{
+    grid-row: 2;
+    grid-column: 2;
+}
+#h3t3{
+    grid-row: 2;
+    grid-column: 3;
+}
